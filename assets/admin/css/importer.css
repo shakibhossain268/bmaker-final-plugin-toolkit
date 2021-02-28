@@ -1,0 +1,215 @@
+
+/* YouTube Icon */
+.cs-section {
+  position: relative;
+}
+.cs-section-video {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  z-index: 1;
+  color: white;
+  font-size: 16px;
+  background: #e52d27;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+.cs-section-video:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.cs-section-video:hover, .cs-section-video:active, .cs-section-video:focus {
+  color: white;
+}
+.cs-section-video i {line-height: 30px;}
+.cs-section-video span {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  width: 52px;
+  float: left;
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  left: -12px;
+  top: 34px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: 0.3s, ease;
+  -o-transition: 0.3s, ease;
+  transition: 0.3s, ease;
+}
+.cs-section-video:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+/*
+  One Click Install
+*/
+.dl-demo-one-click #post-body-content .inside,
+.dl-demo-one-click #poststuff .inside {
+  padding: 0;
+  margin: 0;
+}
+.enova_toolkit_intro-text.dl-demo-one-click {float: left;width: 100%;}
+.ocdi__demo-import-notice {display: inline-block;width: auto;}
+.about-wrap p.ocdi__button-container {display: block;}
+.ocdi__file-upload, .ocdi__multi-select-import, .ocdi__demo-import-notice:not(:empty) {padding: 20px;}
+.dl-demo-one-click #poststuff h3 {
+  border-bottom: 1px solid #ECECEC;
+  padding: 12px 15px;
+  margin: 0;
+  position: relative;
+  font-size: 16px;
+}
+.dl-demo-one-click #poststuff .postbox-container h3 {font-size: 14px;}
+.dl-demo-one-click #poststuff {float: left;width: 100%;}
+.dl-demo-one-click #poststuff .postbox {
+  width: 32.1636%;
+  float: left;
+  min-height: 180px;
+  margin-right: 15px;
+}
+h3 .dl-demo-desc {
+  font-size: 13px;
+  font-weight: normal;
+  color: #808080;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: #fafafa;
+  line-height: 46px;
+  padding: 0px 22px;
+  border-left: 1px solid #ECECEC;
+}
+h3 .dl-demo-desc i {padding-right: 8px;font-size: 15px;position: relative;top: 1px;}
+.dl-demo-one-click .dl-demo-wrap {
+  float: none;
+  width: auto;
+  border-bottom: 1px solid #ECECEC;
+  padding: 20px;
+  position: relative;
+}
+.dl-demo-one-click .dl-demo-wrap:last-child {border-bottom: 0;}
+.dl-demo-wrap .cs-section-video i {line-height: 30px;}
+.dl-content-type .dl-content-type-desc {
+  float: none;
+  display: inline-block;
+  width: 40%;
+}
+.dl-content-type-desc h4 {margin: 10px 0;}
+.dl-content-type-desc p,
+.dl-demo-desc {margin: 0;font-style: italic;color: #979797;}
+.dl-content-type select {
+  width: 350px;
+  position: relative;
+  bottom: 23px;
+  border: 1px solid #eaeaea;
+  -webkit-box-shadow: inset 0px 0px 0px;
+  box-shadow: inset 0px 0px 0px;
+  padding: 6px 8px;
+  height: auto;
+}
+.dl-content-type select:focus,
+.dl-content-type select:active,
+.dl-content-type select:focus option,
+.dl-content-type select:active option {
+  outline: 0 none;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+#poststuff .important-notes {
+  background-color: #FCF8E3;
+  border-color: #F1E6C7;
+  color: #8A6D3B;
+}
+.dl-demo-one-click #poststuff .important-notes h3 {border-color: #F1E6C7;color: #8A6D3B;text-transform: uppercase;}
+.dl-demo-one-click #poststuff .important-notes .inside {padding: 0px 7px 0px 0px;}
+.dl-demo-one-click #poststuff .dl-support-box .inside {padding: 0px 15px 15px;}
+#poststuff .dl-support-box {
+  background-color: #CEEDFD;
+  border-color: rgba(0,0,0,0.05);
+  color: #289DCC;
+}
+#poststuff .dl-support-box .cs-section-video {
+  top: 9px;
+  right: 9px;
+}
+#poststuff .dl-support-box .cs-section-video span {
+  width: 60px;
+  left: -18px;
+}
+#poststuff .dl-error-box {
+  background-color: #efa0a0;
+  border-color: rgba(0,0,0,0.05);
+  color: #8f5050;
+}
+.dl-demo-one-click #poststuff .dl-support-box h3 {border-color: rgba(0,0,0,0.05);color: #289DCC;text-transform: uppercase;position: relative;}
+.dl-demo-one-click #poststuff .dl-error-box h3 {color: #8f5050;}
+.wp-core-ui .dl-support-box .button-primary {
+  -webkit-box-shadow:inset 0 0px 0 rgba(120,200,230,.5),0 0px 0 rgba(0,0,0,.15);
+  box-shadow:inset 0 0px 0 rgba(120,200,230,.5),0 0px 0 rgba(0,0,0,.15);
+  border: none;
+}
+.imported-success {padding: 10px 20px;}
+.imported-success p {
+  background-color: #FAFFFB; margin:10px 0;padding: 15px 10px;color: #8AB38A;border: 2px solid #a1d3a2; clear:both; width:auto; line-height:18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.wp-core-ui .dl-demo-one-click .dl-demo-btn {
+  font-size: 14px;
+  margin: 10px auto;
+  padding: 10px 25px;
+  /*background: #fd6933;*/
+  color: #fff;
+  -webkit-box-shadow: 0 1px 0 #006799;
+  box-shadow: none;
+  text-decoration: none;
+  text-shadow: none;
+  border: none;
+  display: inline-block;
+  height: auto;
+}
+/*.wp-core-ui .dl-demo-one-click .dl-demo-btn:hover {background-color: #ed5923;}*/
+@media (max-width:1691px) {
+  .dl-demo-one-click #poststuff .postbox {width: 32%;}
+}
+@media (max-width:1513px) {
+  .dl-demo-one-click #poststuff .postbox {width: 31%;}
+}
+@media (max-width:1055px) {
+  .dl-demo-one-click #poststuff .postbox {width: 100%;margin-right: 0;}
+}
+@media (max-width: 1136px) {
+  .dl-content-type .dl-content-type-desc {width: 100%;}
+  .dl-content-type select {margin: 20px auto;bottom: 0;}
+}
+@media (max-width: 1024px) {
+  h3 .dl-demo-desc {position: relative;background: transparent;line-height: 1.9em;padding: 0;border-left: none;}
+}
+@media (max-width: 480px) {
+  .dl-demo-one-click #poststuff h3 {display: inline-block;text-align: center;width: 100%;padding: 12px 0;}
+  h3 .dl-demo-desc {float: none;display: block;margin-top: 10px;}
+}
+
+/* ProteusThemes - One Click Install */
+.ocdi__intro-text,
+.ocdi .notice.ocdi__intro-notice,
+.ocdi__title {display: none !important;}
+.enova_toolkit_intro-text {display: inline-block;}
+.ocdi__file-upload, .ocdi__multi-select-import, .ocdi__demo-import-notice:not(:empty){
+    padding: 30px!important;
+}
